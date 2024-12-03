@@ -1,0 +1,31 @@
+# Répertoires spécifiques à Symfony
+/var/
+/vendor/
+/public/bundles/
+
+# Fichiers de configuration locaux
+/.env
+/.env.local
+/.env.*.local
+
+# Cache et logs
+/var/cache/
+/var/logs/
+/var/sessions/
+
+# Fichiers générés par Composer
+/composer.lock
+/composer.phar
+
+# Node.js et outils frontend
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Fichiers IDE
+/.idea/
+/*.iml
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
